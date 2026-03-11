@@ -1,0 +1,284 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.7.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azaroth/.local/share/nvim/mason/staging/prettierd/.npmrc
+5 silly config load:file:/home/azaroth/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install @fsouza/prettierd@0.27.0
+8 verbose argv "install" "@fsouza/prettierd@0.27.0"
+9 verbose logfile logs-max:10 dir:/home/azaroth/.npm/_logs/2026-03-11T03_51_17_849Z-
+10 verbose logfile /home/azaroth/.npm/_logs/2026-03-11T03_51_17_849Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @fsouza/prettierd@0.27.0
+16 silly packumentCache full:https://registry.npmjs.org/@fsouza%2fprettierd cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@fsouza%2fprettierd 579ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@fsouza%2fprettierd set size:undefined disposed:false
+19 silly placeDep ROOT @fsouza/prettierd@0.27.0 OK for: @mason/prettierd@1.0.0 want: 0.27.0
+20 silly fetch manifest core_d@^6.1.1
+21 silly packumentCache full:https://registry.npmjs.org/core_d cache-miss
+22 silly fetch manifest prettier@^3.8.1
+23 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+24 silly fetch manifest @babel/parser@^7.29.0
+25 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/core_d 165ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/core_d set size:undefined disposed:false
+28 silly fetch manifest @typescript-eslint/typescript-estree@^8.53.1
+29 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/prettier 213ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/prettier set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 248ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 683ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:undefined disposed:false
+36 silly fetch manifest typescript@>=4.8.4 <6.0.0
+37 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+38 http cache https://registry.npmjs.org/typescript 32ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/typescript set size:15340015 disposed:false
+40 silly placeDep node_modules/@fsouza/prettierd @babel/parser@7.29.0 OK for: @fsouza/prettierd@0.27.0 want: ^7.29.0
+41 silly placeDep node_modules/@fsouza/prettierd @typescript-eslint/typescript-estree@8.57.0 OK for: @fsouza/prettierd@0.27.0 want: ^8.53.1
+42 silly placeDep node_modules/@fsouza/prettierd typescript@5.9.3 OK for: @typescript-eslint/typescript-estree@8.57.0 want: >=4.8.4 <6.0.0
+43 silly placeDep node_modules/@fsouza/prettierd core_d@6.1.1 OK for: @fsouza/prettierd@0.27.0 want: ^6.1.1
+44 silly placeDep node_modules/@fsouza/prettierd prettier@3.8.1 OK for: @fsouza/prettierd@0.27.0 want: ^3.8.1
+45 silly fetch manifest @babel/types@^7.29.0
+46 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-miss
+47 silly fetch manifest debug@^4.4.3
+48 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+49 silly fetch manifest semver@^7.7.3
+50 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+51 http cache https://registry.npmjs.org/semver 6ms (cache hit)
+52 silly packumentCache full:https://registry.npmjs.org/semver set size:229678 disposed:false
+53 silly fetch manifest minimatch@^10.2.2
+54 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+55 http cache https://registry.npmjs.org/minimatch 3ms (cache hit)
+56 silly packumentCache full:https://registry.npmjs.org/minimatch set size:352359 disposed:false
+57 silly fetch manifest tinyglobby@^0.2.15
+58 silly packumentCache full:https://registry.npmjs.org/tinyglobby cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/debug 97ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+61 silly fetch manifest ts-api-utils@^2.4.0
+62 silly packumentCache full:https://registry.npmjs.org/ts-api-utils cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/tinyglobby 87ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/tinyglobby set size:undefined disposed:false
+65 silly fetch manifest @typescript-eslint/types@8.57.0
+66 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 112ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes set size:undefined disposed:false
+69 silly fetch manifest @typescript-eslint/visitor-keys@8.57.0
+70 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/ts-api-utils 135ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/ts-api-utils set size:undefined disposed:false
+73 silly fetch manifest @typescript-eslint/tsconfig-utils@8.57.0
+74 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils 388ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils set size:undefined disposed:false
+77 silly fetch manifest @typescript-eslint/project-service@8.57.0
+78 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypes 599ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes set size:undefined disposed:false
+81 silly fetch manifest supports-color@^8.1.0
+82 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+83 http cache https://registry.npmjs.org/supports-color 7ms (cache hit)
+84 silly packumentCache full:https://registry.npmjs.org/supports-color set size:118680 disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 808ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:undefined disposed:false
+87 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fproject-service 415ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service set size:undefined disposed:false
+89 silly placeDep node_modules/@fsouza/prettierd @babel/types@7.29.0 OK for: @babel/parser@7.29.0 want: ^7.29.0
+90 silly fetch manifest @babel/helper-string-parser@^7.27.1
+91 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser cache-miss
+92 silly fetch manifest @babel/helper-validator-identifier@^7.28.5
+93 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 68ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 85ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser set size:undefined disposed:false
+98 silly placeDep node_modules/@fsouza/prettierd @babel/helper-string-parser@7.27.1 OK for: @babel/types@7.29.0 want: ^7.27.1
+99 silly placeDep node_modules/@fsouza/prettierd @babel/helper-validator-identifier@7.28.5 OK for: @babel/types@7.29.0 want: ^7.28.5
+100 silly placeDep node_modules/@fsouza/prettierd @typescript-eslint/project-service@8.57.0 OK for: @typescript-eslint/typescript-estree@8.57.0 want: 8.57.0
+101 silly placeDep node_modules/@fsouza/prettierd @typescript-eslint/tsconfig-utils@8.57.0 OK for: @typescript-eslint/typescript-estree@8.57.0 want: 8.57.0
+102 silly placeDep node_modules/@fsouza/prettierd @typescript-eslint/types@8.57.0 OK for: @typescript-eslint/typescript-estree@8.57.0 want: 8.57.0
+103 silly placeDep node_modules/@fsouza/prettierd @typescript-eslint/visitor-keys@8.57.0 OK for: @typescript-eslint/typescript-estree@8.57.0 want: 8.57.0
+104 silly placeDep node_modules/@fsouza/prettierd debug@4.4.3 OK for: @typescript-eslint/typescript-estree@8.57.0 want: ^4.4.3
+105 silly placeDep node_modules/@fsouza/prettierd minimatch@10.2.4 OK for: @typescript-eslint/typescript-estree@8.57.0 want: ^10.2.2
+106 silly placeDep node_modules/@fsouza/prettierd semver@7.7.4 OK for: @typescript-eslint/typescript-estree@8.57.0 want: ^7.7.3
+107 silly placeDep node_modules/@fsouza/prettierd tinyglobby@0.2.15 OK for: @typescript-eslint/typescript-estree@8.57.0 want: ^0.2.15
+108 silly placeDep node_modules/@fsouza/prettierd ts-api-utils@2.4.0 OK for: @typescript-eslint/typescript-estree@8.57.0 want: ^2.4.0
+109 silly fetch manifest @typescript-eslint/types@^8.57.0
+110 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss
+111 silly fetch manifest @typescript-eslint/tsconfig-utils@^8.57.0
+112 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-miss
+113 silly fetch manifest eslint-visitor-keys@^5.0.0
+114 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-miss
+115 http cache https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils 7ms (cache hit)
+116 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils set size:953108 disposed:false
+117 silly fetch manifest ms@^2.1.3
+118 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+119 http cache https://registry.npmjs.org/@typescript-eslint%2ftypes 32ms (cache hit)
+120 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes set size:11922284 disposed:false
+121 silly fetch manifest brace-expansion@^5.0.2
+122 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+123 http cache https://registry.npmjs.org/brace-expansion 15ms (cache hit)
+124 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:55744 disposed:false
+125 silly fetch manifest fdir@^6.5.0
+126 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys 121ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys set size:undefined disposed:false
+129 silly fetch manifest picomatch@^4.0.3
+130 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+131 http cache https://registry.npmjs.org/picomatch 2ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/picomatch set size:118818 disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/ms 132ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+135 http fetch GET 200 https://registry.npmjs.org/fdir 71ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/fdir set size:undefined disposed:false
+137 silly placeDep node_modules/@fsouza/prettierd eslint-visitor-keys@5.0.1 OK for: @typescript-eslint/visitor-keys@8.57.0 want: ^5.0.0
+138 silly placeDep node_modules/@fsouza/prettierd supports-color@8.1.1 OK for: core_d@6.1.1 want: ^8.1.0
+139 silly fetch manifest has-flag@^4.0.0
+140 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+141 http cache https://registry.npmjs.org/has-flag 3ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+143 silly placeDep node_modules/@fsouza/prettierd ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+144 silly placeDep node_modules/@fsouza/prettierd brace-expansion@5.0.4 OK for: minimatch@10.2.4 want: ^5.0.2
+145 silly fetch manifest balanced-match@^4.0.2
+146 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+147 http cache https://registry.npmjs.org/balanced-match 3ms (cache hit)
+148 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:39082 disposed:false
+149 silly placeDep node_modules/@fsouza/prettierd balanced-match@4.0.4 OK for: brace-expansion@5.0.4 want: ^4.0.2
+150 silly placeDep node_modules/@fsouza/prettierd has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+151 silly placeDep node_modules/@fsouza/prettierd fdir@6.5.0 OK for: tinyglobby@0.2.15 want: ^6.5.0
+152 silly placeDep node_modules/@fsouza/prettierd picomatch@4.0.3 OK for: tinyglobby@0.2.15 want: ^4.0.3
+153 silly reify moves {}
+154 silly audit bulk request {
+154 silly audit   '@fsouza/prettierd': [ '0.27.0' ],
+154 silly audit   '@babel/parser': [ '7.29.0' ],
+154 silly audit   '@typescript-eslint/typescript-estree': [ '8.57.0' ],
+154 silly audit   typescript: [ '5.9.3' ],
+154 silly audit   core_d: [ '6.1.1' ],
+154 silly audit   prettier: [ '3.8.1' ],
+154 silly audit   '@babel/types': [ '7.29.0' ],
+154 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+154 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+154 silly audit   '@typescript-eslint/project-service': [ '8.57.0' ],
+154 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.57.0' ],
+154 silly audit   '@typescript-eslint/types': [ '8.57.0' ],
+154 silly audit   '@typescript-eslint/visitor-keys': [ '8.57.0' ],
+154 silly audit   debug: [ '4.4.3' ],
+154 silly audit   minimatch: [ '10.2.4' ],
+154 silly audit   semver: [ '7.7.4' ],
+154 silly audit   tinyglobby: [ '0.2.15' ],
+154 silly audit   'ts-api-utils': [ '2.4.0' ],
+154 silly audit   'eslint-visitor-keys': [ '5.0.1' ],
+154 silly audit   'supports-color': [ '8.1.1' ],
+154 silly audit   ms: [ '2.1.3' ],
+154 silly audit   'brace-expansion': [ '5.0.4' ],
+154 silly audit   'balanced-match': [ '4.0.4' ],
+154 silly audit   'has-flag': [ '4.0.0' ],
+154 silly audit   fdir: [ '6.5.0' ],
+154 silly audit   picomatch: [ '4.0.3' ]
+154 silly audit }
+155 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 0ms (cache hit)
+156 http cache @fsouza/prettierd@https://registry.npmjs.org/@fsouza/prettierd/-/prettierd-0.27.0.tgz 0ms (cache hit)
+157 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+158 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+159 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+160 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz 0ms (cache hit)
+161 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz 0ms (cache hit)
+162 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+163 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz 0ms (cache hit)
+164 http cache ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.4.0.tgz 0ms (cache hit)
+165 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+166 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+167 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+168 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 0ms (cache hit)
+169 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.57.0.tgz 0ms (cache hit)
+170 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.57.0.tgz 0ms (cache hit)
+171 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.57.0.tgz 0ms (cache hit)
+172 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.57.0.tgz 0ms (cache hit)
+173 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 0ms (cache hit)
+174 http cache @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 0ms (cache hit)
+175 http cache prettier@https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz 0ms (cache hit)
+176 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz 0ms (cache hit)
+177 http cache core_d@https://registry.npmjs.org/core_d/-/core_d-6.1.1.tgz 0ms (cache hit)
+178 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+179 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.57.0.tgz 0ms (cache hit)
+180 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 0ms (cache hit)
+181 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz. Extracting by manifest.
+182 silly tarball no local data for @fsouza/prettierd@https://registry.npmjs.org/@fsouza/prettierd/-/prettierd-0.27.0.tgz. Extracting by manifest.
+183 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+184 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz. Extracting by manifest.
+185 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+186 silly tarball no local data for eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz. Extracting by manifest.
+187 silly tarball no local data for ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.4.0.tgz. Extracting by manifest.
+188 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz. Extracting by manifest.
+189 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+190 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.57.0.tgz. Extracting by manifest.
+191 silly tarball no local data for @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.57.0.tgz. Extracting by manifest.
+192 silly tarball no local data for @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.57.0.tgz. Extracting by manifest.
+193 silly tarball no local data for @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.57.0.tgz. Extracting by manifest.
+194 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz. Extracting by manifest.
+195 silly tarball no local data for @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz. Extracting by manifest.
+196 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz. Extracting by manifest.
+197 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz. Extracting by manifest.
+198 silly tarball no local data for core_d@https://registry.npmjs.org/core_d/-/core_d-6.1.1.tgz. Extracting by manifest.
+199 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+200 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.57.0.tgz. Extracting by manifest.
+201 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz. Extracting by manifest.
+202 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 80ms (cache miss)
+203 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 138ms
+204 silly audit report {}
+205 http fetch GET 200 https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 147ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 205ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz 209ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 215ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz 216ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 217ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.4.0.tgz 224ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 231ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/core_d/-/core_d-6.1.1.tgz 239ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 258ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.57.0.tgz 273ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.57.0.tgz 287ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/types/-/types-8.57.0.tgz 311ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/@fsouza/prettierd/-/prettierd-0.27.0.tgz 328ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.57.0.tgz 414ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.57.0.tgz 507ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz 545ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 872ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 1096ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz 1102ms (cache miss)
+225 silly ADD node_modules/@fsouza/prettierd
+226 silly ADD node_modules/@fsouza/prettierd/node_modules/picomatch
+227 silly ADD node_modules/@fsouza/prettierd/node_modules/fdir
+228 silly ADD node_modules/@fsouza/prettierd/node_modules/has-flag
+229 silly ADD node_modules/@fsouza/prettierd/node_modules/balanced-match
+230 silly ADD node_modules/@fsouza/prettierd/node_modules/brace-expansion
+231 silly ADD node_modules/@fsouza/prettierd/node_modules/ms
+232 silly ADD node_modules/@fsouza/prettierd/node_modules/supports-color
+233 silly ADD node_modules/@fsouza/prettierd/node_modules/eslint-visitor-keys
+234 silly ADD node_modules/@fsouza/prettierd/node_modules/ts-api-utils
+235 silly ADD node_modules/@fsouza/prettierd/node_modules/tinyglobby
+236 silly ADD node_modules/@fsouza/prettierd/node_modules/semver
+237 silly ADD node_modules/@fsouza/prettierd/node_modules/minimatch
+238 silly ADD node_modules/@fsouza/prettierd/node_modules/debug
+239 silly ADD node_modules/@fsouza/prettierd/node_modules/@typescript-eslint/visitor-keys
+240 silly ADD node_modules/@fsouza/prettierd/node_modules/@typescript-eslint/types
+241 silly ADD node_modules/@fsouza/prettierd/node_modules/@typescript-eslint/tsconfig-utils
+242 silly ADD node_modules/@fsouza/prettierd/node_modules/@typescript-eslint/project-service
+243 silly ADD node_modules/@fsouza/prettierd/node_modules/@babel/helper-validator-identifier
+244 silly ADD node_modules/@fsouza/prettierd/node_modules/@babel/helper-string-parser
+245 silly ADD node_modules/@fsouza/prettierd/node_modules/@babel/types
+246 silly ADD node_modules/@fsouza/prettierd/node_modules/prettier
+247 silly ADD node_modules/@fsouza/prettierd/node_modules/core_d
+248 silly ADD node_modules/@fsouza/prettierd/node_modules/typescript
+249 silly ADD node_modules/@fsouza/prettierd/node_modules/@typescript-eslint/typescript-estree
+250 silly ADD node_modules/@fsouza/prettierd/node_modules/@babel/parser
+251 verbose cwd /home/azaroth/.local/share/nvim/mason/staging/prettierd
+252 verbose os Linux 6.19.6-arch1-1
+253 verbose node v25.7.0
+254 verbose npm  v11.11.0
+255 verbose exit 0
+256 info ok

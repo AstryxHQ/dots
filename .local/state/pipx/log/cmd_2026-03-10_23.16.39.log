@@ -1,0 +1,38 @@
+    95.3ms (setup:1113): 2026-03-10 23:16:39
+    95.3ms (setup:1114): /usr/bin/pipx install pynvim
+    95.4ms (setup:1115): pipx version is 1.8.0
+    95.4ms (setup:1116): Default python interpreter is '/usr/bin/python3.14'
+    95.8ms (package_name_from_spec:381): Determined package name: pynvim
+    95.8ms (package_name_from_spec:382): Package name determined in 0.0s
+    96.0ms (create_venv:164): Creating virtual environment
+    96.3ms (run_subprocess:175): running /usr/bin/python3.14 -m venv --without-pip /home/azaroth/.local/share/pipx/venvs/pynvim
+   164.5ms (run_subprocess:195): stdout:
+   164.6ms (run_subprocess:197): stderr:
+   164.6ms (run_subprocess:198): returncode: 0
+   165.0ms (run_subprocess:175): running <checking pip's availability>
+   181.2ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f4a01956f10>, origin='/home/azaroth/.local/share/pipx/shared/lib/python3.14/site-packages/pip/__init__.py', submodule_search_locations=['/home/azaroth/.local/share/pipx/shared/lib/python3.14/site-packages/pip'])
+   181.2ms (run_subprocess:198): returncode: 0
+   181.4ms (run_subprocess:175): running /home/azaroth/.local/share/pipx/venvs/pynvim/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   200.3ms (run_subprocess:195): stdout: /home/azaroth/.local/share/pipx/venvs/pynvim/lib/python3.14/site-packages
+   200.3ms (run_subprocess:198): returncode: 0
+   200.6ms (run_subprocess:175): running /home/azaroth/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   219.4ms (run_subprocess:195): stdout: /home/azaroth/.local/share/pipx/shared/lib/python3.14/site-packages
+   219.5ms (run_subprocess:198): returncode: 0
+   219.8ms (run_subprocess:175): running /home/azaroth/.local/share/pipx/venvs/pynvim/bin/python --version
+   222.6ms (run_subprocess:195): stdout: Python 3.14.3
+   222.6ms (run_subprocess:197): stderr:
+   222.7ms (run_subprocess:198): returncode: 0
+   222.8ms (_parsed_package_to_package_or_url:139): cleaned package spec: pynvim
+   222.8ms (install_package:247): Installing pynvim
+   223.2ms (run_subprocess:175): running /home/azaroth/.local/share/pipx/venvs/pynvim/bin/python -m pip --no-input install pynvim
+  2292.7ms (run_subprocess:198): returncode: 0
+  2293.0ms (run_subprocess:175): running <fetch_info_in_venv commands>
+  2321.6ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python314.zip", "/usr/lib/python3.14", "/usr/lib/python3.14/lib-dynload", "/home/azaroth/.local/share/pipx/venvs/pynvim/lib/python3.14/site-packages", "/home/azaroth/.local/share/pipx/shared/lib/python3.14/site-packages"], "python_version": "3.14.3", "environment": {"implementation_name": "cpython", "implementation_version": "3.14.3", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.19.6-arch1-1", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Wed, 04 Mar 2026 18:25:08 +0000", "python_full_version": "3.14.3", "platform_python_implementation": "CPython", "python_version": "3.14", "sys_platform": "linux"}}
+  2321.7ms (run_subprocess:198): returncode: 0
+  2334.1ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 41ms
+  2334.2ms (_parsed_package_to_package_or_url:139): cleaned package spec: pynvim
+  2335.7ms (warn_if_not_on_path:477): ⚠️  Note: '/home/azaroth/.local/bin' is not on your PATH environment variable. These apps
+    will not be globally accessible until your PATH is updated. Run `pipx ensurepath` to
+    automatically add it, or manually modify your PATH in your shell's config file (e.g.
+    ~/.bashrc).
+  2335.8ms (cli:1192): pipx finished.

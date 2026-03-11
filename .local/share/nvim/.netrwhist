@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/azaroth/.config/nvim'
+let g:netrw_dirhist_3='/home/azaroth/.config/nvim/.git'
+let g:netrw_dirhist_2='/home/azaroth/.config/nvim'
+let g:netrw_dirhist_1='/home/azaroth/.config'
+let g:netrw_dirhist_0='/home/azaroth'
+let g:netrw_dirhist_9='/home/azaroth/main'
+let g:netrw_dirhist_8='/home/azaroth'
+let g:netrw_dirhist_7='/home/azaroth/main'
+let g:netrw_dirhist_6='/home/azaroth/main/astryx'
+let g:netrw_dirhist_5='/home/azaroth/main'

@@ -1,0 +1,1308 @@
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: Lua Lsp startup, root: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: Lua Lsp startup, root: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: ROOT:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: ROOT:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:73]: LOGPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:73]: LOGPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:74]: METAPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:74]: METAPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[16:02:35.002][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:75]: VERSION:	3.17.1
+[16:02:35.002][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:75]: VERSION:	3.17.1
+[16:02:35.063][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[16:02:35.063][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[16:02:35.063][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.915 MB
+        # 00 : 1.915 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:02:35.063][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.915 MB
+        # 00 : 1.915 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:02:35.075][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-8", "utf-16", "utf-32" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = false,
+        resolveSupport = {
+          properties = { "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = false,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          preselectSupport = false,
+          resolveSupport = {
+            properties = { "additionalTextEdits", "command" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = false,
+        foldingRange = {
+          collapsedText = true
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "textEdits", "tooltip", "location", "command" }
+        }
+      },
+      publishDiagnostics = {
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      rangeFormatting = {
+        dynamicRegistration = true,
+        rangesSupport = true
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeConfiguration = {
+        dynamicRegistration = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.11.6+v0.11.6"
+  },
+  processId = 7360,
+  rootPath = "/home/azaroth/.config/nvim",
+  rootUri = "file:///home/azaroth/.config/nvim",
+  trace = "off",
+  workDoneToken = "1",
+  workspaceFolders = { {
+      name = "/home/azaroth/.config/nvim",
+      uri = "file:///home/azaroth/.config/nvim"
+    } }
+}
+[16:02:35.075][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-8", "utf-16", "utf-32" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = false,
+        resolveSupport = {
+          properties = { "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = false,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          preselectSupport = false,
+          resolveSupport = {
+            properties = { "additionalTextEdits", "command" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = false,
+        foldingRange = {
+          collapsedText = true
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "textEdits", "tooltip", "location", "command" }
+        }
+      },
+      publishDiagnostics = {
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      rangeFormatting = {
+        dynamicRegistration = true,
+        rangesSupport = true
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeConfiguration = {
+        dynamicRegistration = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.11.6+v0.11.6"
+  },
+  initializationOptions = {},
+  processId = 7360,
+  rootPath = "/home/azaroth/.config/nvim",
+  rootUri = "file:///home/azaroth/.config/nvim",
+  trace = "off",
+  workDoneToken = "1",
+  workspaceFolders = { {
+      name = "/home/azaroth/.config/nvim",
+      uri = "file:///home/azaroth/.config/nvim"
+    } }
+}
+[16:02:35.075][info] [#0:script/language.lua:137]: VSC language: nil
+[16:02:35.075][info] [#0:script/language.lua:137]: VSC language: nil
+[16:02:35.075][info] [#0:script/language.lua:138]: LS  language: en-us
+[16:02:35.075][info] [#0:script/language.lua:138]: LS  language: en-us
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/azaroth/.config/nvim
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/azaroth/.config/nvim
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_azaroth_.config_nvim.log
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_azaroth_.config_nvim.log
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: Lua Lsp startup, root: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: Lua Lsp startup, root: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: ROOT:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: ROOT:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:73]: LOGPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:73]: LOGPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:74]: METAPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[16:02:35.001][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:74]: METAPATH:	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[16:02:35.002][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:75]: VERSION:	3.17.1
+[16:02:35.002][info] [#0:/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:75]: VERSION:	3.17.1
+[16:02:35.063][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[16:02:35.063][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[16:02:35.063][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.915 MB
+        # 00 : 1.915 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:02:35.063][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.915 MB
+        # 00 : 1.915 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:02:35.075][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-8", "utf-16", "utf-32" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = false,
+        resolveSupport = {
+          properties = { "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = false,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          preselectSupport = false,
+          resolveSupport = {
+            properties = { "additionalTextEdits", "command" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = false,
+        foldingRange = {
+          collapsedText = true
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "textEdits", "tooltip", "location", "command" }
+        }
+      },
+      publishDiagnostics = {
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      rangeFormatting = {
+        dynamicRegistration = true,
+        rangesSupport = true
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeConfiguration = {
+        dynamicRegistration = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.11.6+v0.11.6"
+  },
+  processId = 7360,
+  rootPath = "/home/azaroth/.config/nvim",
+  rootUri = "file:///home/azaroth/.config/nvim",
+  trace = "off",
+  workDoneToken = "1",
+  workspaceFolders = { {
+      name = "/home/azaroth/.config/nvim",
+      uri = "file:///home/azaroth/.config/nvim"
+    } }
+}
+[16:02:35.075][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-8", "utf-16", "utf-32" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = false,
+        resolveSupport = {
+          properties = { "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = false,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          preselectSupport = false,
+          resolveSupport = {
+            properties = { "additionalTextEdits", "command" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = false,
+        foldingRange = {
+          collapsedText = true
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "textEdits", "tooltip", "location", "command" }
+        }
+      },
+      publishDiagnostics = {
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      rangeFormatting = {
+        dynamicRegistration = true,
+        rangesSupport = true
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeConfiguration = {
+        dynamicRegistration = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.11.6+v0.11.6"
+  },
+  initializationOptions = {},
+  processId = 7360,
+  rootPath = "/home/azaroth/.config/nvim",
+  rootUri = "file:///home/azaroth/.config/nvim",
+  trace = "off",
+  workDoneToken = "1",
+  workspaceFolders = { {
+      name = "/home/azaroth/.config/nvim",
+      uri = "file:///home/azaroth/.config/nvim"
+    } }
+}
+[16:02:35.075][info] [#0:script/language.lua:137]: VSC language: nil
+[16:02:35.075][info] [#0:script/language.lua:137]: VSC language: nil
+[16:02:35.075][info] [#0:script/language.lua:138]: LS  language: en-us
+[16:02:35.075][info] [#0:script/language.lua:138]: LS  language: en-us
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/azaroth/.config/nvim
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/azaroth/.config/nvim
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_azaroth_.config_nvim.log
+[16:02:35.075][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_azaroth_.config_nvim.log
+[16:02:35.076][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/azaroth/.config/nvim
+[16:02:35.076][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/azaroth/.config/nvim
+[16:02:35.082][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/azaroth/.config/nvim
+[16:02:35.083][info] [#0:script/provider/provider.lua:50]: {
+  Lua = {
+    codeLens = {
+      enable = true
+    },
+    hint = {
+      enable = true,
+      semicolon = "Disable"
+    }
+  }
+}
+[16:02:35.083][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[16:02:35.083][info] [#0:script/provider/provider.lua:56]: Load config from .luarc.json/.luarc.jsonc	file:///home/azaroth/.config/nvim
+[16:02:35.083][info] [#0:script/provider/provider.lua:57]: {
+  ["diagnostics.globals"] = { "vim" }
+}
+[16:02:35.083][info] [#0:script/provider/provider.lua:56]: Load config from .luarc.json/.luarc.jsonc	file:///home/azaroth/.config/nvim
+[16:02:35.083][info] [#0:script/provider/provider.lua:57]: {
+  ["diagnostics.globals"] = { "vim" }
+}
+[16:02:35.083][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/azaroth/.config/nvim
+[16:02:35.083][info] [#0:script/provider/provider.lua:50]: {
+  Lua = {
+    codeLens = {
+      enable = true
+    },
+    hint = {
+      enable = true,
+      semicolon = "Disable"
+    }
+  }
+}
+[16:02:35.083][info] [#0:script/provider/provider.lua:56]: Load config from .luarc.json/.luarc.jsonc	file:///home/azaroth/.config/nvim
+[16:02:35.083][info] [#0:script/provider/provider.lua:57]: {
+  ["diagnostics.globals"] = { "vim" }
+}
+[16:02:35.083][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[16:02:35.083][info] [#0:script/provider/provider.lua:66]: {
+  Lua = {
+    codeLens = {
+      enable = true
+    },
+    hint = {
+      enable = true,
+      semicolon = "Disable"
+    }
+  }
+}
+[16:02:35.083][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[16:02:35.083][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[16:02:35.084][info] [#0:script/provider/provider.lua:66]: nil
+[16:02:35.084][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[16:02:35.084][info] [#0:script/provider/provider.lua:66]: {
+  Lua = {
+    codeLens = {
+      enable = true
+    },
+    hint = {
+      enable = true,
+      semicolon = "Disable"
+    }
+  }
+}
+[16:02:35.316][info] [#0:script/library.lua:216]: Init builtin library at:	file:///home/azaroth/.config/nvim
+[16:02:35.316][info] [#0:script/library.lua:216]: Init builtin library at:	file:///home/azaroth/.config/nvim
+[16:02:35.368][info] [#0:script/library.lua:216]: Init builtin library at:	nil
+[16:02:35.369][info] [#0:script/library.lua:216]: Init builtin library at:	nil
+[16:02:35.508][info] [#0:script/workspace/workspace.lua:332]: Preload start:	file:///home/azaroth/.config/nvim
+[16:02:35.509][info] [#0:script/workspace/workspace.lua:332]: Preload start:	file:///home/azaroth/.config/nvim
+[16:02:35.515][info] [#0:script/workspace/workspace.lua:338]: Scan files at:	file:///home/azaroth/.config/nvim
+[16:02:35.517][info] [#0:script/workspace/workspace.lua:338]: Scan files at:	file:///home/azaroth/.config/nvim
+[16:02:35.517][info] [#0:script/workspace/workspace.lua:332]: Preload start:	<fallback>
+[16:02:35.518][info] [#0:script/workspace/workspace.lua:332]: Preload start:	<fallback>
+[16:02:35.524][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.525][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.525][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.525][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.526][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.526][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.527][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.527][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.527][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.528][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.528][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.528][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.528][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.529][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.529][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.529][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.530][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.530][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.530][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.530][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.530][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.531][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.532][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.533][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.534][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.534][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.534][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.534][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.535][info] [#0:script/workspace/workspace.lua:361]: Scan library at:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.724][info] [#0:script/workspace/workspace.lua:387]: Found 11 files at:	<fallback>
+[16:02:35.724][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[16:02:35.724][info] [#0:script/workspace/workspace.lua:387]: Found 18 files at:	file:///home/azaroth/.config/nvim
+[16:02:35.724][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim
+[16:02:35.726][info] [#0:script/workspace/workspace.lua:387]: Found 11 files at:	<fallback>
+[16:02:35.726][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[16:02:35.727][info] [#0:script/workspace/workspace.lua:387]: Found 18 files at:	file:///home/azaroth/.config/nvim
+[16:02:35.727][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim
+[16:02:35.728][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/init.lua
+[16:02:35.731][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[16:02:35.733][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/init.lua
+[16:02:35.736][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[16:02:35.762][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.762][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.762][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
+[16:02:35.765][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.765][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[16:02:35.765][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
+[16:02:35.775][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.776][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.776][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 17.330 KB
+[16:02:35.779][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.779][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[16:02:35.780][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 17.330 KB
+[16:02:35.813][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.813][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.387 KB
+[16:02:35.818][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.818][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[16:02:35.818][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.387 KB
+[16:02:35.822][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.822][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.822][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.389 KB
+[16:02:35.827][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.827][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[16:02:35.827][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.389 KB
+[16:02:35.835][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.835][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.835][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[16:02:35.838][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.838][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[16:02:35.838][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[16:02:35.846][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.846][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.846][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.595 KB
+[16:02:35.849][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.849][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[16:02:35.849][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.595 KB
+[16:02:35.855][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.855][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.855][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[16:02:35.858][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.858][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[16:02:35.858][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[16:02:35.859][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.859][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.859][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[16:02:35.861][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.861][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.861][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 5.020 KB
+[16:02:35.862][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.862][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[16:02:35.862][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[16:02:35.864][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.864][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[16:02:35.865][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 5.020 KB
+[16:02:35.866][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.866][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.866][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[16:02:35.867][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.867][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.867][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.157] sec: <fallback>
+[16:02:35.867][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[16:02:35.867][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[16:02:35.867][info] [#0:script/workspace/workspace.lua:389]: Preload finish at:	<fallback>
+[16:02:35.870][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.870][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[16:02:35.870][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[16:02:35.871][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.871][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/azaroth/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[16:02:35.871][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.154] sec: <fallback>
+[16:02:35.871][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[16:02:35.871][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[16:02:35.871][info] [#0:script/workspace/workspace.lua:389]: Preload finish at:	<fallback>
+[16:02:35.970][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/colorscheme.lua , size = 0.179 KB
+[16:02:35.971][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/rnvimr.lua , size = 2.207 KB
+[16:02:35.973][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/colorscheme.lua , size = 0.179 KB
+[16:02:35.975][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua , size = 1.700 KB
+[16:02:35.976][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/rnvimr.lua , size = 2.207 KB
+[16:02:35.979][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/telescope.lua , size = 0.607 KB
+[16:02:35.979][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua , size = 1.700 KB
+[16:02:35.981][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/config/keymaps.lua , size = 0.569 KB
+[16:02:35.983][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/config/options.lua , size = 0.728 KB
+[16:02:35.986][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/plugins/telescope.lua , size = 0.607 KB
+[16:02:35.989][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/config/keymaps.lua , size = 0.569 KB
+[16:02:35.992][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/azaroth/.config/nvim/lua/config/options.lua , size = 0.728 KB
+[16:02:36.086][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.176] sec: file:///home/azaroth/.config/nvim
+[16:02:36.087][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim
+[16:02:36.087][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim
+[16:02:36.087][info] [#0:script/workspace/workspace.lua:389]: Preload finish at:	file:///home/azaroth/.config/nvim
+[16:02:36.095][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.176] sec: file:///home/azaroth/.config/nvim
+[16:02:36.095][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim
+[16:02:36.095][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim
+[16:02:36.095][info] [#0:script/workspace/workspace.lua:389]: Preload finish at:	file:///home/azaroth/.config/nvim
+[16:02:36.105][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/didOpen] takes [0.509]sec. {
+  jsonrpc = "2.0",
+  method = "textDocument/didOpen",
+  params = {
+    textDocument = {
+      languageId = "lua",
+      text = '"***"',
+      uri = "file:///home/azaroth/.config/nvim/init.lua",
+      version = 0
+    }
+  }
+}
+[16:02:36.113][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/didOpen] takes [0.512]sec. {
+  jsonrpc = "2.0",
+  method = "textDocument/didOpen",
+  params = {
+    textDocument = {
+      languageId = "lua",
+      text = '"***"',
+      uri = "file:///home/azaroth/.config/nvim/init.lua",
+      version = 0
+    }
+  }
+}
+[16:02:36.120][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/azaroth/.config/nvim], files count:[18]
+[16:02:36.123][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/azaroth/.config/nvim], files count:[18]
+[16:02:36.125][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/semanticTokens/full] takes [0.520]sec. {
+  id = 4,
+  jsonrpc = "2.0",
+  method = "textDocument/semanticTokens/full",
+  params = {
+    textDocument = {
+      uri = "file:///home/azaroth/.config/nvim/init.lua"
+    }
+  }
+}
+[16:02:36.127][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/semanticTokens/full] takes [0.519]sec. {
+  id = 6,
+  jsonrpc = "2.0",
+  method = "textDocument/semanticTokens/full",
+  params = {
+    textDocument = {
+      uri = "file:///home/azaroth/.config/nvim/init.lua"
+    }
+  }
+}
+[16:02:36.245][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/azaroth/.config/nvim] finished, takes [0.109] sec.
+[16:02:36.246][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/azaroth/.config/nvim] finished, takes [0.123] sec.
+[16:03:31.779][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/workspace.lua:292]: Scan files at:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.092][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/workspace.lua:292]: Scan files at:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:35.121][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:03:38.092][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/azaroth/.config/nvim], files count:[18]
+[16:03:38.139][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/azaroth/.config/nvim] finished, takes [0.047] sec.
+[16:03:58.300][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/workspace.lua:292]: Scan files at:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.100][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/workspace.lua:292]: Scan files at:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:00.152][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/azaroth/.config/nvim/lua/plugins/lsp.lua
+[16:04:04.297][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/azaroth/.config/nvim], files count:[18]
+[16:04:04.358][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/azaroth/.config/nvim] finished, takes [0.061] sec.
+[16:12:35.035][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.709 MB
+        # 00 : 6.323 MB
+        # 01 : 0.062 MB
+        # 02 : 0.062 MB
+        # 03 : 0.131 MB
+        # 04 : 0.132 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:12:35.035][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.673 MB
+        # 00 : 6.287 MB
+        # 01 : 0.062 MB
+        # 02 : 0.062 MB
+        # 03 : 0.131 MB
+        # 04 : 0.132 MB
+    --------------- Coroutine ---------------
+        Total:     44
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      44
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:13:50.448][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!
+[16:13:50.448][info] [#0:script/provider/provider.lua:176]: Server shutdown.
+[16:13:50.448][info] [#0:script/provider/provider.lua:176]: Server shutdown.
+[16:13:50.448][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!

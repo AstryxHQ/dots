@@ -1,0 +1,30 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.7.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azaroth/.local/share/nvim/mason/staging/typescript-language-server/.npmrc
+5 silly config load:file:/home/azaroth/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes" "--scope" "mason"
+9 verbose logfile logs-max:10 dir:/home/azaroth/.npm/_logs/2026-03-11T03_51_35_350Z-
+10 verbose logfile /home/azaroth/.npm/_logs/2026-03-11T03_51_35_350Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly package data {
+13 silly package data   name: '@mason/typescript-language-server',
+13 silly package data   version: '1.0.0',
+13 silly package data   description: '',
+13 silly package data   main: 'index.js',
+13 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+13 silly package data   keywords: [],
+13 silly package data   author: '',
+13 silly package data   license: 'ISC',
+13 silly package data   type: 'commonjs'
+13 silly package data }
+14 verbose cwd /home/azaroth/.local/share/nvim/mason/staging/typescript-language-server
+15 verbose os Linux 6.19.6-arch1-1
+16 verbose node v25.7.0
+17 verbose npm  v11.11.0
+18 verbose exit 0
+19 info ok

@@ -1,0 +1,95 @@
+[INFO  Tue 10 Mar 2026 10:45:16 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:45:16 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=typescript-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:45:16 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=pyright) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue 10 Mar 2026 10:45:16 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="npm", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:45:16 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="npm", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:45:16 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+[ERROR Tue 10 Mar 2026 10:45:16 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=pyright) error=spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+[INFO  Tue 10 Mar 2026 10:45:19 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=lua-language-server)
+[INFO  Tue 10 Mar 2026 10:47:06 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=css-lsp) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue 10 Mar 2026 10:47:06 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="npm", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:47:06 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=css-lsp) error=spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+[INFO  Tue 10 Mar 2026 10:47:22 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=html-lsp) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue 10 Mar 2026 10:47:22 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="npm", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:47:22 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=html-lsp) error=spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+[INFO  Tue 10 Mar 2026 10:47:48 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=pyright) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue 10 Mar 2026 10:47:48 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="npm", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:47:48 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=pyright) error=spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+[INFO  Tue 10 Mar 2026 10:49:47 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=pyright) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:49:49 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=css-lsp) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:49:51 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=html-lsp) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:49:53 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=pyright)
+[INFO  Tue 10 Mar 2026 10:49:56 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=html-lsp)
+[INFO  Tue 10 Mar 2026 10:49:57 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=css-lsp)
+[INFO  Tue 10 Mar 2026 10:50:23 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=sonarlint-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:50:48 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=htmlhint) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:50:51 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=htmlhint)
+[INFO  Tue 10 Mar 2026 10:51:17 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=prettierd) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:51:22 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=prettierd)
+[ERROR Tue 10 Mar 2026 10:51:24 PM CDT] ...al/share/nvim/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="unzip", err="ENOENT: no such file or directory"
+[ERROR Tue 10 Mar 2026 10:51:24 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=sonarlint-language-server) error=spawn: unzip failed with exit code - and signal -. Could not find executable "unzip" in PATH.
+
+[INFO  Tue 10 Mar 2026 10:51:35 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=typescript-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Tue 10 Mar 2026 10:51:37 PM CDT] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=typescript-language-server)
+[ERROR Wed 11 Mar 2026 10:55:33 AM CDT] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:81: Provider "github" "get_latest_release" failed: spawn: wget failed with exit code 4 and signal 0. 
+[ERROR Wed 11 Mar 2026 10:55:33 AM CDT] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:81: Provider "github" "get_latest_release" failed: spawn: wget failed with exit code 4 and signal 0. 
+[ERROR Wed 11 Mar 2026 10:55:33 AM CDT] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:92: No provider implementation succeeded for github.get_latest_release
+[ERROR Wed 11 Mar 2026 10:55:33 AM CDT] ...im/lazy/mason.nvim/lua/mason-registry/sources/github.lua:144: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to fetch latest registry version from GitHub API."
+[ERROR Wed 11 Mar 2026 10:55:33 AM CDT] ...l/share/nvim/lazy/mason.nvim/lua/mason-registry/init.lua:128: Failed to update registries. { "GitHubRegistrySource(repo=mason-org/mason-registry) failed to install: Failed to fetch latest registry version from GitHub API." }

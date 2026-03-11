@@ -1,0 +1,3 @@
+#!/bin/sh
+cp ~/.cache/wal/colors-cava ~/.config/cava/config
+pkill -USR1 cava  # reload cava live without restart

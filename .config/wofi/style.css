@@ -1,0 +1,42 @@
+@import url("/home/azaroth/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: 'JetBrains Mono Nerd Font', monospace;
+    font-size: 13px;
+    color: @foreground;
+}
+
+window {
+    background-color: @background;
+    border: 3px solid @color12;
+    border-radius: 12px;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+#input {
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid @color12;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: @foreground;
+}
+
+#entry {
+    padding: 10px;
+    margin: 2px 5px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: @color12;
+}
+
+#entry:selected #text {
+    color: @background;
+}
+
+/* ── Fixed Thumbnail Styling ── */
+

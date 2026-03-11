@@ -1,0 +1,41 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.7.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azaroth/.local/share/nvim/mason/staging/typescript-language-server/.npmrc
+5 silly config load:file:/home/azaroth/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install typescript-language-server@5.1.3 typescript
+8 verbose argv "install" "typescript-language-server@5.1.3" "typescript"
+9 verbose logfile logs-max:10 dir:/home/azaroth/.npm/_logs/2026-03-11T03_51_35_744Z-
+10 verbose logfile /home/azaroth/.npm/_logs/2026-03-11T03_51_35_744Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest typescript-language-server@5.1.3
+16 silly packumentCache full:https://registry.npmjs.org/typescript-language-server cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/typescript-language-server 358ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/typescript-language-server set size:undefined disposed:false
+19 silly fetch manifest typescript@*
+20 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+21 http cache https://registry.npmjs.org/typescript 32ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/typescript set size:15340015 disposed:false
+23 silly placeDep ROOT typescript@5.9.3 OK for: @mason/typescript-language-server@1.0.0 want: *
+24 silly placeDep ROOT typescript-language-server@5.1.3 OK for: @mason/typescript-language-server@1.0.0 want: 5.1.3
+25 silly reify moves {}
+26 silly audit bulk request { typescript: [ '5.9.3' ], 'typescript-language-server': [ '5.1.3' ] }
+27 http cache typescript-language-server@https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.1.3.tgz 0ms (cache hit)
+28 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+29 silly tarball no local data for typescript-language-server@https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.1.3.tgz. Extracting by manifest.
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 128ms
+31 silly audit report {}
+32 http fetch GET 200 https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.1.3.tgz 401ms (cache miss)
+33 silly ADD node_modules/typescript-language-server
+34 silly ADD node_modules/typescript
+35 verbose cwd /home/azaroth/.local/share/nvim/mason/staging/typescript-language-server
+36 verbose os Linux 6.19.6-arch1-1
+37 verbose node v25.7.0
+38 verbose npm  v11.11.0
+39 verbose exit 0
+40 info ok

@@ -1,0 +1,286 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.7.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/azaroth/.local/share/nvim/mason/staging/htmlhint/.npmrc
+5 silly config load:file:/home/azaroth/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install htmlhint@1.9.2
+8 verbose argv "install" "htmlhint@1.9.2"
+9 verbose logfile logs-max:10 dir:/home/azaroth/.npm/_logs/2026-03-11T03_50_49_217Z-
+10 verbose logfile /home/azaroth/.npm/_logs/2026-03-11T03_50_49_217Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest htmlhint@1.9.2
+16 silly packumentCache full:https://registry.npmjs.org/htmlhint cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/htmlhint 359ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/htmlhint set size:undefined disposed:false
+19 silly placeDep ROOT htmlhint@1.9.2 OK for: @mason/htmlhint@1.0.0 want: 1.9.2
+20 silly fetch manifest async@3.2.6
+21 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+22 silly fetch manifest chalk@4.1.2
+23 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+24 silly fetch manifest commander@11.1.0
+25 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/async 145ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/async set size:undefined disposed:false
+28 silly fetch manifest glob@^13.0.6
+29 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/chalk 170ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+32 silly fetch manifest is-glob@^4.0.3
+33 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/commander 209ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+36 silly fetch manifest node-sarif-builder@3.2.0
+37 silly packumentCache full:https://registry.npmjs.org/node-sarif-builder cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/is-glob 153ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/is-glob set size:undefined disposed:false
+40 silly fetch manifest strip-json-comments@3.1.1
+41 silly packumentCache full:https://registry.npmjs.org/strip-json-comments cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/glob 191ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+44 silly fetch manifest xml@1.0.1
+45 silly packumentCache full:https://registry.npmjs.org/xml cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 104ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/strip-json-comments set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/xml 120ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/xml set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/node-sarif-builder 270ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/node-sarif-builder set size:undefined disposed:false
+52 silly placeDep node_modules/htmlhint async@3.2.6 OK for: htmlhint@1.9.2 want: 3.2.6
+53 silly placeDep node_modules/htmlhint chalk@4.1.2 OK for: htmlhint@1.9.2 want: 4.1.2
+54 silly placeDep node_modules/htmlhint commander@11.1.0 OK for: htmlhint@1.9.2 want: 11.1.0
+55 silly placeDep node_modules/htmlhint glob@13.0.6 OK for: htmlhint@1.9.2 want: ^13.0.6
+56 silly placeDep node_modules/htmlhint is-glob@4.0.3 OK for: htmlhint@1.9.2 want: ^4.0.3
+57 silly placeDep node_modules/htmlhint node-sarif-builder@3.2.0 OK for: htmlhint@1.9.2 want: 3.2.0
+58 silly placeDep node_modules/htmlhint strip-json-comments@3.1.1 OK for: htmlhint@1.9.2 want: 3.1.1
+59 silly placeDep node_modules/htmlhint xml@1.0.1 OK for: htmlhint@1.9.2 want: 1.0.1
+60 silly fetch manifest ansi-styles@^4.1.0
+61 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+62 silly fetch manifest supports-color@^7.1.0
+63 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+64 silly fetch manifest minimatch@^10.2.2
+65 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/ansi-styles 64ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+68 silly fetch manifest minipass@^7.1.3
+69 silly packumentCache full:https://registry.npmjs.org/minipass cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/minimatch 71ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+72 silly fetch manifest path-scurry@^2.0.2
+73 silly packumentCache full:https://registry.npmjs.org/path-scurry cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/supports-color 80ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/supports-color set size:undefined disposed:false
+76 silly fetch manifest is-extglob@^2.1.1
+77 silly packumentCache full:https://registry.npmjs.org/is-extglob cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/path-scurry 69ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/path-scurry set size:undefined disposed:false
+80 silly fetch manifest fs-extra@^11.1.1
+81 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/minipass 82ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/minipass set size:undefined disposed:false
+84 silly fetch manifest @types/sarif@^2.1.7
+85 silly packumentCache full:https://registry.npmjs.org/@types%2fsarif cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/is-extglob 80ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/is-extglob set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/fs-extra 70ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/@types%2fsarif 197ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@types%2fsarif set size:undefined disposed:false
+92 silly placeDep node_modules/htmlhint ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+93 silly placeDep node_modules/htmlhint supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+94 silly fetch manifest color-convert@^2.0.1
+95 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+96 silly fetch manifest has-flag@^4.0.0
+97 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/has-flag 65ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/has-flag set size:undefined disposed:false
+100 http fetch GET 200 https://registry.npmjs.org/color-convert 79ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/color-convert set size:undefined disposed:false
+102 silly placeDep node_modules/htmlhint color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+103 silly fetch manifest color-name@~1.1.4
+104 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/color-name 57ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+107 silly placeDep node_modules/htmlhint color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+108 silly placeDep node_modules/htmlhint minimatch@10.2.4 OK for: glob@13.0.6 want: ^10.2.2
+109 silly placeDep node_modules/htmlhint minipass@7.1.3 OK for: glob@13.0.6 want: ^7.1.3
+110 silly placeDep node_modules/htmlhint path-scurry@2.0.2 OK for: glob@13.0.6 want: ^2.0.2
+111 silly fetch manifest brace-expansion@^5.0.2
+112 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+113 silly fetch manifest lru-cache@^11.0.0
+114 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/brace-expansion 66ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/lru-cache 108ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:undefined disposed:false
+119 silly placeDep node_modules/htmlhint is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+120 silly placeDep node_modules/htmlhint brace-expansion@5.0.4 OK for: minimatch@10.2.4 want: ^5.0.2
+121 silly fetch manifest balanced-match@^4.0.2
+122 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/balanced-match 121ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+125 silly placeDep node_modules/htmlhint balanced-match@4.0.4 OK for: brace-expansion@5.0.4 want: ^4.0.2
+126 silly placeDep node_modules/htmlhint @types/sarif@2.1.7 OK for: node-sarif-builder@3.2.0 want: ^2.1.7
+127 silly placeDep node_modules/htmlhint fs-extra@11.3.4 OK for: node-sarif-builder@3.2.0 want: ^11.1.1
+128 silly fetch manifest graceful-fs@^4.2.0
+129 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+130 silly fetch manifest jsonfile@^6.0.1
+131 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+132 silly fetch manifest universalify@^2.0.0
+133 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/graceful-fs 62ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/universalify 65ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/universalify set size:undefined disposed:false
+138 http fetch GET 200 https://registry.npmjs.org/jsonfile 149ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:undefined disposed:false
+140 silly placeDep node_modules/htmlhint graceful-fs@4.2.11 OK for: fs-extra@11.3.4 want: ^4.2.0
+141 silly placeDep node_modules/htmlhint jsonfile@6.2.0 OK for: fs-extra@11.3.4 want: ^6.0.1
+142 silly placeDep node_modules/htmlhint universalify@2.0.1 OK for: fs-extra@11.3.4 want: ^2.0.0
+143 silly placeDep node_modules/htmlhint lru-cache@11.2.6 OK for: path-scurry@2.0.2 want: ^11.0.0
+144 silly placeDep node_modules/htmlhint has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+145 silly reify moves {}
+146 silly audit bulk request {
+146 silly audit   htmlhint: [ '1.9.2' ],
+146 silly audit   async: [ '3.2.6' ],
+146 silly audit   chalk: [ '4.1.2' ],
+146 silly audit   commander: [ '11.1.0' ],
+146 silly audit   glob: [ '13.0.6' ],
+146 silly audit   'is-glob': [ '4.0.3' ],
+146 silly audit   'node-sarif-builder': [ '3.2.0' ],
+146 silly audit   'strip-json-comments': [ '3.1.1' ],
+146 silly audit   xml: [ '1.0.1' ],
+146 silly audit   'ansi-styles': [ '4.3.0' ],
+146 silly audit   'supports-color': [ '7.2.0' ],
+146 silly audit   'color-convert': [ '2.0.1' ],
+146 silly audit   'color-name': [ '1.1.4' ],
+146 silly audit   minimatch: [ '10.2.4' ],
+146 silly audit   minipass: [ '7.1.3' ],
+146 silly audit   'path-scurry': [ '2.0.2' ],
+146 silly audit   'is-extglob': [ '2.1.1' ],
+146 silly audit   'brace-expansion': [ '5.0.4' ],
+146 silly audit   'balanced-match': [ '4.0.4' ],
+146 silly audit   '@types/sarif': [ '2.1.7' ],
+146 silly audit   'fs-extra': [ '11.3.4' ],
+146 silly audit   'graceful-fs': [ '4.2.11' ],
+146 silly audit   jsonfile: [ '6.2.0' ],
+146 silly audit   universalify: [ '2.0.1' ],
+146 silly audit   'lru-cache': [ '11.2.6' ],
+146 silly audit   'has-flag': [ '4.0.0' ]
+146 silly audit }
+147 http cache htmlhint@https://registry.npmjs.org/htmlhint/-/htmlhint-1.9.2.tgz 1ms (cache hit)
+148 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+149 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz 0ms (cache hit)
+150 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.6.tgz 0ms (cache hit)
+151 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 0ms (cache hit)
+152 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+153 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+154 http cache @types/sarif@https://registry.npmjs.org/@types/sarif/-/sarif-2.1.7.tgz 0ms (cache hit)
+155 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.4.tgz 1ms (cache hit)
+156 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz 0ms (cache hit)
+157 http cache path-scurry@https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz 0ms (cache hit)
+158 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+159 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 0ms (cache hit)
+160 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 0ms (cache hit)
+161 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+162 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+163 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+164 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+165 http cache xml@https://registry.npmjs.org/xml/-/xml-1.0.1.tgz 0ms (cache hit)
+166 http cache strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz 0ms (cache hit)
+167 http cache node-sarif-builder@https://registry.npmjs.org/node-sarif-builder/-/node-sarif-builder-3.2.0.tgz 0ms (cache hit)
+168 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+169 http cache glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 0ms (cache hit)
+170 http cache commander@https://registry.npmjs.org/commander/-/commander-11.1.0.tgz 0ms (cache hit)
+171 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 1ms (cache hit)
+172 http cache async@https://registry.npmjs.org/async/-/async-3.2.6.tgz 0ms (cache hit)
+173 silly tarball no local data for htmlhint@https://registry.npmjs.org/htmlhint/-/htmlhint-1.9.2.tgz. Extracting by manifest.
+174 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+175 silly tarball no local data for jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz. Extracting by manifest.
+176 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.6.tgz. Extracting by manifest.
+177 silly tarball no local data for universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz. Extracting by manifest.
+178 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+179 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz. Extracting by manifest.
+180 silly tarball no local data for @types/sarif@https://registry.npmjs.org/@types/sarif/-/sarif-2.1.7.tgz. Extracting by manifest.
+181 silly tarball no local data for fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.4.tgz. Extracting by manifest.
+182 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz. Extracting by manifest.
+183 silly tarball no local data for path-scurry@https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz. Extracting by manifest.
+184 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+185 silly tarball no local data for minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz. Extracting by manifest.
+186 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz. Extracting by manifest.
+187 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+188 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+189 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz. Extracting by manifest.
+190 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+191 silly tarball no local data for xml@https://registry.npmjs.org/xml/-/xml-1.0.1.tgz. Extracting by manifest.
+192 silly tarball no local data for strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz. Extracting by manifest.
+193 silly tarball no local data for node-sarif-builder@https://registry.npmjs.org/node-sarif-builder/-/node-sarif-builder-3.2.0.tgz. Extracting by manifest.
+194 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+195 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz. Extracting by manifest.
+196 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-11.1.0.tgz. Extracting by manifest.
+197 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz. Extracting by manifest.
+198 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-3.2.6.tgz. Extracting by manifest.
+199 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 79ms (cache miss)
+200 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 137ms
+201 silly audit report {}
+202 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 132ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 168ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 201ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz 216ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 221ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 230ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 247ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz 246ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/xml/-/xml-1.0.1.tgz 250ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz 270ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 272ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/@types/sarif/-/sarif-2.1.7.tgz 301ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz 308ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 309ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 325ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-11.1.0.tgz 350ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 361ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.4.tgz 373ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/node-sarif-builder/-/node-sarif-builder-3.2.0.tgz 398ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 417ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/async/-/async-3.2.6.tgz 420ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 435ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/htmlhint/-/htmlhint-1.9.2.tgz 448ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.6.tgz 511ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 535ms (cache miss)
+227 silly ADD node_modules/htmlhint
+228 silly ADD node_modules/htmlhint/node_modules/has-flag
+229 silly ADD node_modules/htmlhint/node_modules/lru-cache
+230 silly ADD node_modules/htmlhint/node_modules/universalify
+231 silly ADD node_modules/htmlhint/node_modules/jsonfile
+232 silly ADD node_modules/htmlhint/node_modules/graceful-fs
+233 silly ADD node_modules/htmlhint/node_modules/fs-extra
+234 silly ADD node_modules/htmlhint/node_modules/@types/sarif
+235 silly ADD node_modules/htmlhint/node_modules/balanced-match
+236 silly ADD node_modules/htmlhint/node_modules/brace-expansion
+237 silly ADD node_modules/htmlhint/node_modules/is-extglob
+238 silly ADD node_modules/htmlhint/node_modules/path-scurry
+239 silly ADD node_modules/htmlhint/node_modules/minipass
+240 silly ADD node_modules/htmlhint/node_modules/minimatch
+241 silly ADD node_modules/htmlhint/node_modules/color-name
+242 silly ADD node_modules/htmlhint/node_modules/color-convert
+243 silly ADD node_modules/htmlhint/node_modules/supports-color
+244 silly ADD node_modules/htmlhint/node_modules/ansi-styles
+245 silly ADD node_modules/htmlhint/node_modules/xml
+246 silly ADD node_modules/htmlhint/node_modules/strip-json-comments
+247 silly ADD node_modules/htmlhint/node_modules/node-sarif-builder
+248 silly ADD node_modules/htmlhint/node_modules/is-glob
+249 silly ADD node_modules/htmlhint/node_modules/glob
+250 silly ADD node_modules/htmlhint/node_modules/commander
+251 silly ADD node_modules/htmlhint/node_modules/chalk
+252 silly ADD node_modules/htmlhint/node_modules/async
+253 verbose cwd /home/azaroth/.local/share/nvim/mason/staging/htmlhint
+254 verbose os Linux 6.19.6-arch1-1
+255 verbose node v25.7.0
+256 verbose npm  v11.11.0
+257 verbose exit 0
+258 info ok
